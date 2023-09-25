@@ -3,8 +3,7 @@
 const Logo = () => {
     return (
         <div>
-            <img className="" src="../public/Logo.png" alt="" />
-            
+            <img className="" src="/Logo.png" alt="" />
         </div>
     );
 };
