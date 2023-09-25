@@ -1,0 +1,123 @@
+[
+    {
+      "picture": "https://i.ibb.co/nBzZNCP/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg_color": "#3498db",
+      "card_bg_color": "#ecf0f1",
+      "text_and_button_bg_color": "#F87147",
+      "description": "Access to nutritious food is essential for a healthy and thriving society. It's crucial that everyone has access to a variety of fresh and affordable food options. Communities can work together to support local farmers, promote sustainable agriculture, and reduce food waste to ensure better food for all.",
+      "price": "$290"
+    },
+    {
+      "picture": "https://i.ibb.co/QjtsMPq/Education.png",
+      "title": "Good Education",
+      "category": "Education",
+      "category_bg_color": "#e74c3c",
+      "card_bg_color": "#f0e68c",
+      "text_and_button_bg_color": "#FF444A",
+      "description": "Quality education is the foundation for personal and societal growth. To provide a good education for all, we must invest in well-equipped schools, skilled educators, and accessible resources. Engaged families, supportive communities, and dedicated teachers are key to helping students reach their full potential.",
+      "price": "$290"
+    },
+    {
+      "picture": "https://i.ibb.co/cyY7C84/Health.png",
+      "title": "Clean Water for Children",
+      "category": "Health",
+      "category_bg_color": "#9b59b6",
+      "card_bg_color": "#f39c12",
+      "text_and_button_bg_color": "#0052FF",
+      "description": "Access to clean and safe drinking water is a fundamental human right, especially for children. Ensuring clean water sources, proper sanitation, and hygiene education is essential for preventing waterborne diseases and promoting the health and well-being of future generations.",
+      "price": "$290"
+    },
+    {
+      "picture": "https://i.ibb.co/3pm6P7Q/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg_color": "#34495e",
+      "card_bg_color": "#95a5a6",
+      "text_and_button_bg_color": "#79C23F",
+      "description": "Supporting clothing drives and sustainable fashion choices can make a positive impact on both individuals and the environment. By donating gently used clothing and choosing eco-friendly materials, we can reduce waste, provide clothing for those in need, and contribute to a more sustainable future.",
+      "price": "$290"
+    },
+    {
+      "picture": "https://i.ibb.co/nBzZNCP/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg_color": "#1abc9c",
+      "card_bg_color": "#f1c40f",
+      "text_and_button_bg_color": "#F87147",
+      "description": "Access to nutritious food is essential for a healthy and thriving society. It's crucial that everyone has access to a variety of fresh and affordable food options. Communities can work together to support local farmers, promote sustainable agriculture, and reduce food waste to ensure better food for all.",
+      "price": "$290"
+    },
+    {
+      "picture": "https://i.ibb.co/QjtsMPq/Education.png",
+      "title": "Good Education",
+      "category": "Education",
+      "category_bg_color": "#d35400",
+      "card_bg_color": "#ecf0f1",
+      "text_and_button_bg_color": "#FF444A",
+      "description": "Quality education is the foundation for personal and societal growth. To provide a good education for all, we must invest in well-equipped schools, skilled educators, and accessible resources. Engaged families, supportive communities, and dedicated teachers are key to helping students reach their full potential.",
+      "price": "$290"
+    },
+    {
+      "picture": "https://i.ibb.co/cyY7C84/Health.png",
+      "title": "Clean Water for Children",
+      "category": "Health",
+      "category_bg_color": "#f39c12",
+      "card_bg_color": "#95a5a6",
+      "text_and_button_bg_color": "#0052FF",
+      "description": "Access to clean and safe drinking water is a fundamental human right, especially for children. Ensuring clean water sources, proper sanitation, and hygiene education is essential for preventing waterborne diseases and promoting the health and well-being of future generations.",
+      "price": "$290"
+    },
+    {
+      "picture": "https://i.ibb.co/3pm6P7Q/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg_color": "#2ecc71",
+      "card_bg_color": "#f0e68c",
+      "text_and_button_bg_color": "#79C23F",
+      "description": "Supporting clothing drives and sustainable fashion choices can make a positive impact on both individuals and the environment. By donating gently used clothing and choosing eco-friendly materials, we can reduce waste, provide clothing for those in need, and contribute to a more sustainable future.",
+      "price": "$290"
+    },
+    {
+      "picture": "https://i.ibb.co/nBzZNCP/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg_color": "#3498db",
+      "card_bg_color": "#ecf0f1",
+      "text_and_button_bg_color": "#F87147",
+      "description": "Access to nutritious food is essential for a healthy and thriving society. It's crucial that everyone has access to a variety of fresh and affordable food options. Communities can work together to support local farmers, promote sustainable agriculture, and reduce food waste to ensure better food for all.",
+      "price": "$290"
+    },
+    {
+      "picture": "https://i.ibb.co/QjtsMPq/Education.png",
+      "title": "Good Education",
+      "category": "Education",
+      "category_bg_color": "#e74c3c",
+      "card_bg_color": "#f0e68c",
+      "text_and_button_bg_color": "#FF444A",
+      "description": "Quality education is the foundation for personal and societal growth. To provide a good education for all, we must invest in well-equipped schools, skilled educators, and accessible resources. Engaged families, supportive communities, and dedicated teachers are key to helping students reach their full potential.",
+      "price": "$290"
+    },
+    {
+      "picture": "https://i.ibb.co/cyY7C84/Health.png",
+      "title": "Clean Water for Children",
+      "category": "Health",
+      "category_bg_color": "#9b59b6",
+      "card_bg_color": "#f39c12",
+      "text_and_button_bg_color": "#0052FF",
+      "description": "Access to clean and safe drinking water is a fundamental human right, especially for children. Ensuring clean water sources, proper sanitation, and hygiene education is essential for preventing waterborne diseases and promoting the health and well-being of future generations.",
+      "price": "$290"
+    },
+    {
+      "picture": "https://i.ibb.co/3pm6P7Q/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg_color": "#34495e",
+      "card_bg_color": "#95a5a6",
+      "text_and_button_bg_color": "#79C23F",
+      "description": "Supporting clothing drives and sustainable fashion choices can make a positive impact on both individuals and the environment. By donating gently used clothing and choosing eco-friendly materials, we can reduce waste, provide clothing for those in need, and contribute to a more sustainable future.",
+      "price": "$290"
+    }
+  ]
+  
