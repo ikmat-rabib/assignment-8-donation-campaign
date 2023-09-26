@@ -37,6 +37,7 @@ const Detail = () => {
             </div>
             <ToastContainer />
         </div>
+        
     );
 };
 
