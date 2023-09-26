@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Card = ({ card }) => {
@@ -10,16 +11,14 @@ const Card = ({ card }) => {
     const categoryStyle = {
         backgroundColor: category_bg_color,
     }
-    // const buttonStyle = {
-    //     color: text_and_button_bg_color,
-    //     backgroundColor: ,
-    // };
+    
     const titleStyle = {
         color: text_and_button_bg_color,
     };
 
     return (
         <div>
+            <Link to={`/card/${id}`}>
             <div className="card w-[312px] bg-base-100 shadow-xl " style={cardStyle}>
                 <figure><img src={picture} alt="" /></figure>
                 <div className="card-body">
@@ -32,6 +31,7 @@ const Card = ({ card }) => {
 
                 </div>
             </div>
+            </Link>
         </div>
     );
 };
