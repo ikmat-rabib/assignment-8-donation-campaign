@@ -7,8 +7,9 @@ const Detail = () => {
 
     const cards = useLoaderData();
     const { id } = useParams();
+    const idInt = parseInt(id);
 
-    const card = cards.find(card => card.id == id)
+    const card = cards.find(card => card.id === idInt)
 
     const buttonStyle = {
         color: card.category_bg_color,
@@ -18,7 +19,7 @@ const Detail = () => {
     // console.log(card);
 
     const handleAddedDonation = () => {
-        saveDonation(id);
+        saveDonation(idInt);
         toast("You have already Donated this !");
     }
 
