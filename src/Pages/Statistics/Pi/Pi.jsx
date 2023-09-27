@@ -1,7 +1,5 @@
-
 import { PieChart, Pie,  Cell } from 'recharts';
 import { getStoredDonation } from '../../../utility/localStorage';
-// import { useEffect, useState } from 'react';
 
 const Pi = () =>  {
   const myDonation = getStoredDonation();
@@ -10,19 +8,6 @@ const Pi = () =>  {
 
   const remainingValue = 12 - myDonationValue;
   
-// const [items, setItems] = useState([]);
-
-// useEffect(() => {
-//   const storedData = localStorage.getItem(getStoredDonation());
-//   console.log(storedData);
-  
-//   if (storedData) {
-//     const parsedData = JSON.parse(storedData);
-//     setItems(parsedData)
-//   }
-// },[])
-
-
 const data = [
     { name: 'Group A', value: remainingValue },
     { name: 'Group B', value: myDonationValue },
@@ -42,7 +27,6 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
     </text>
   );
 };
-
  
     return (
   
