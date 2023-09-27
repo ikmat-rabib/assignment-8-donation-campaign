@@ -1,20 +1,35 @@
 
 import { PieChart, Pie,  Cell } from 'recharts';
 import { getStoredDonation } from '../../../utility/localStorage';
+// import { useEffect, useState } from 'react';
 
-const myDonation = parseInt(getStoredDonation());
-console.log(myDonation);
 
-// const [items, setItems] = useState(myDonation);
-// setItems(items);
 
+const Pi = () =>  {
+  const myDonation = getStoredDonation();
+  const myDonationValue = myDonation.length
+  console.log(myDonation.length);
+
+  const remainingValue = 12 - myDonationValue;
+  
+// const [items, setItems] = useState([]);
+
+// useEffect(() => {
+//   const storedData = localStorage.getItem(getStoredDonation());
+//   console.log(storedData);
+  
+//   if (storedData) {
+//     const parsedData = JSON.parse(storedData);
+//     setItems(parsedData)
+//   }
+// },[])
 
 
 
 
 const data = [
-    { name: 'Group A', value: 2 },
-    { name: 'Group B', value: myDonation },
+    { name: 'Group A', value: remainingValue },
+    { name: 'Group B', value: myDonationValue },
   ];
   
   const COLORS = ['#FF444A', '#00C49F'];
@@ -32,8 +47,6 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
   );
 };
 
-const Pi = () =>  {
-
  
     return (
   
@@ -44,7 +57,7 @@ const Pi = () =>  {
             cy="50%"
             labelLine={false}
             label={renderCustomizedLabel}
-            outerRadius={80}
+            outerRadius={150}
             fill="#8884d8"
             dataKey="value"
           >

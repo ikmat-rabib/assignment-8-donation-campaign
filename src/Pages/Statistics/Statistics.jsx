@@ -7,9 +7,9 @@ const Statistics = () => {
 
     return (
         <div className='flex flex-col justify-center items-center h-full'>
-            <div className="">
+            <div className="md:mt-20">
                 <div className="w-full">
-                    <Pi ></Pi>
+                    <Pi></Pi>
                 </div>
             </div>
             <div className="flex gap-5">
