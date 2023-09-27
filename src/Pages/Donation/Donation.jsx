@@ -21,27 +21,16 @@ const Donation = () => {
         }
     }, [donations])
 
-    // const {card_bg_color, category_bg_color, text_and_button_bg_color} = donations;
-
-    const cardStyle = {
-        backgroundColor: donations?.card_bg_color,
-    };
-    const categoryStyle = {
-        backgroundColor: donations?.category_bg_color,
-    }
-
-    const titleStyle = {
-        color: donations?.text_and_button_bg_color,
-    };
+    
 
     return (
         <div className="max-w-[1320px] mx-auto my-10">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
                 {
                     donationAdded.slice(0, dataLength).map(donation =>
-                        <div key={donation.id} className="card card-side bg-base-100 " style={{backgroundColor:donation?.card_bg_color}}>
-                            <figure><img src={donation.selected_picture} alt="" /></figure>
-                            <div className="card-body">
+                        <div key={donation.id} className="card card-side  " style={{backgroundColor:donation?.card_bg_color}}>
+                            <figure><img className="object-contain" src={donation.selected_picture} alt="" /></figure>
+                            <div className="card-body py-6">
                                 <div className="px-2 rounded-md max-w-min" style={{backgroundColor:donation?.category_bg_color}}>
                                     <p style={donation?.titleStyle}>{donation?.category}</p>
                                 </div>
