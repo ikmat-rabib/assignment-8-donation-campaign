@@ -1,4 +1,4 @@
-import { stringify } from "postcss";
+// import { stringify } from "postcss";
 
 const getStoredDonation = () => {
     const storedDonation = localStorage.getItem('donations');
