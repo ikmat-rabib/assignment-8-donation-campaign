@@ -30,7 +30,7 @@ const Donation = () => {
                     donationAdded.slice(0, dataLength).map(donation =>
                         <div key={donation.id} className="card card-side  " style={{backgroundColor:donation?.card_bg_color}}>
                             <figure><img className="object-contain" src={donation.selected_picture} alt="" /></figure>
-                            <div className="card-body py-6">
+                            <div className="card-body py-5">
                                 <div className="px-2 rounded-md max-w-min" style={{backgroundColor:donation?.category_bg_color}}>
                                     <p style={donation?.titleStyle}>{donation?.category}</p>
                                 </div>
